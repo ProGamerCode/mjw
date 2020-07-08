@@ -1,10 +1,15 @@
 <template> 
   <div id="app">
-    <div id="nav">     
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+        <div class="navbar-item is-tab is-expanded">
+        <router-link to="/" class="title has-text-primary-dark">Home</router-link> 
+      </div>
+      <div class="navbar-item is-tab is-expanded">
+        <router-link to="/about" class="title has-text-primary-dark">About</router-link>
+      </div>
+        <router-view/>
+    </nav>
   </div>
 </template>
 

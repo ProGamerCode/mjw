@@ -1,14 +1,26 @@
 <template>
   <div class="hello">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-    <h1>{{ msg }}</h1>
-    <p>
-      <i> Careful w/that button link below mate</i> 
-    </p>
-    <a class="button is-link" href="https://rpubs.com/ProGamerCode/630250">White Paper</a>
+    <article class="message is-info">
+      <div class="message-body">
+        <h1>{{ msg }}</h1>
+        <p>
+        <i> Careful w/that button link below mate</i> 
+        </p>
+        <a class="button is-link" href="https://rpubs.com/ProGamerCode/630250">White Paper</a>
+      </div>
+   </article>
     <div class="columns is-primary is-gapless is-multiline">
-      <h2>I know what your all thinking <i>Oh boy,Yet Another ERC20 token</i></h2>
-      <h3>So without reading the technical WP heres all you need to know in neat bundles below</h3>
+      <article class="message is-danger">
+        <div class="message-body">
+        <h2>I know what your all thinking <i>Oh boy,Yet Another ERC20 token</i></h2>
+        </div>
+      </article>
+      <article class="message is-warning">
+        <div class="message-body">
+          <h3><b> So without reading the technical WP heres all you need to know in neat bundles below</b></h3>
+        </div>      
+      </article>
       <div class="gap"></div>
       <div class="column">
         <article class="message is-dark">

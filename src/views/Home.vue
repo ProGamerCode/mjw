@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/mjw.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="MJW logo" src="../assets/mjw.png">
+    <HelloWorld msg="Marijuana Weight Coin"/>
   </div>
 </template>
 
