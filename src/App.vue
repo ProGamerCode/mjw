@@ -6,7 +6,7 @@
         <router-link to="/" class="title has-text-primary-dark">Home</router-link> 
       </div>
       <div class="navbar-item is-tab is-expanded">
-        <router-link to="/about" class="title has-text-primary-dark">About</router-link>
+        <router-link to="/about" class="title has-text-primary-dark">Black0ut_WP</router-link>
       </div>
         <router-view/>
     </nav>

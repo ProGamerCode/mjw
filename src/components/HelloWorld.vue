@@ -1,18 +1,19 @@
 <template>
   <div class="hello">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-    <article class="message is-info">
+    <article class="message is-link">
       <div class="message-body">
         <h1>{{ msg }}</h1>
         <p>
-        <i> Careful w/that button link below mate</i> 
+        <i> Careful w/that button link below mat3E</i> 
+         Arrr there B'nan turnin back from this one here
         </p>
         <a class="button is-link" href="https://rpubs.com/ProGamerCode/630250">White Paper</a>
       </div>
    </article>
 <div class="columns is-primary is-gapless is-multiline">
       <figure class="image is-128x128">
-        <img src="../assets/trampstamp.png">
+        <img src="../assets/J0butt0n8.png">
       </figure>
       <article class="message is-danger">
         <div class="message-body">
@@ -20,7 +21,7 @@
         </div>
      </article>
         <figure class="image is-128x128">
-          <img src="../assets/trampstamp.png">
+          <img src="../assets/J0butt0n8.png">
         </figure>
       <article class="message is-warning">
         <div class="message-body">
@@ -28,7 +29,7 @@
         </div>      
       </article>
         <figure class="image is-128x128">
-          <img src="../assets/trampstamp.png">
+          <img src="../assets/J0butt0n8.png">
         </figure>
       <div class="gap"></div>
       <div class="column">
@@ -64,16 +65,30 @@
           </div>
         </article>
     </div>
-<iframe width="760" height="515" src="https://www.youtube-nocookie.com/embed/A9i6rgbm40s" frameborder="0" allow="accelerometer; autoplay; encrypted-mediap; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+</div>
+<div class='level'>
+          <iframe width="760" height="515" src="https://www.youtube-nocookie.com/embed/A9i6rgbm40s" frameborder="0" allow="accelerometer; autoplay; encrypted-mediap; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  data() {
+    return {
+      isOpen: false
+    }
+  },
+  methods: {
+    toggleModal() {
+      this.isOpen = !this.isOpen
+    }
   }
 }
 </script>
